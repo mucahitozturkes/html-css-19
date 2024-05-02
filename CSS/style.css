@@ -23,9 +23,7 @@ main {
     display: grid;
     place-content: center;
     min-height: 100vh;
-    background-image: url(/images/bg-mobile.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+   backgound-color: hsl(228, 56%, 26%);
 }
 
 img {
