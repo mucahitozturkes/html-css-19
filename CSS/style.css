@@ -1,0 +1,168 @@
+/*Raleway*/
+:root {
+    --Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+    --Pale-Blue: hsl(243, 100%, 93%);
+    --Grayish-Blue: hsl(229, 7%, 55%);
+    --Dark-Blue: hsl(228, 56%, 26%);
+    --Very-Dark-Blue: hsl(229, 57%, 11%);
+}
+
+* {
+    font-family: Raleway;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-image: url(/images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main_container {
+    display: grid;
+    gap: 1rem;
+}
+
+/*Card-1*/
+.card1 {
+    background-color: var(--Dark-Blue);
+    width: 325px;
+    height: 200px;
+    border-radius: 8px 100px 8px 8px;
+    display: grid;
+    place-content: center;
+}
+
+.card1_wrapper {
+    margin-left: -5rem;
+    
+}
+
+.logo {
+    margin-bottom: 2rem;
+}
+
+.folders {
+    display: flex;
+
+}
+
+.folders >* {
+    background-color: var(--Very-Dark-Blue);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+.folder2 {
+    margin-inline: 1rem;
+}
+
+/*Card-2*/
+.card2 {
+    background-color: var(--Dark-Blue);
+    width: 325px;
+    height: 160px;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.card2_wrapper {
+    padding: 2rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.card2_title {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    padding-inline: 1rem;
+    font-size: .88rem;
+}
+
+span {
+    font-weight: 700;
+    
+}
+
+.card2_bar {
+    background-color: var(--Very-Dark-Blue);
+    width: 100%;
+    height: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.card2_proggress_bar {
+    width: 80%;
+    height: 16px;
+    background: linear-gradient(to bottom, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 12px;
+    margin-left: 2px;
+    display: flex;
+    place-content: end;
+    align-items: center;
+}
+
+.card2_pin {
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    border-radius: 100px;
+    margin-right: 2px;
+}
+
+.card2_gb_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card2_gb_wrapper >* {
+    color: white;
+}
+
+.card2_bottom_box {
+    display: flex;
+    place-content: center;
+    margin-top: -1rem;
+}
+
+.card2_bottom_box_wrapper {
+    background-color: white;
+    border-radius: 8px;
+    width: 180px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+.gb {
+    margin-left: 1rem;
+    color: var(--Grayish-Blue);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.num {
+    font-size: 2rem;
+}
