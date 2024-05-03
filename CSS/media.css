@@ -1,5 +1,9 @@
 @media (min-width: 1024px) {
 
+   body {
+        background-color: var(--Very-Dark-Blue);
+    }
+   
    main .main_container {
         display: flex;
     }
@@ -40,6 +44,7 @@
         transform: rotate(90deg);
         clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
         margin-top: -1rem;
+        margin-right: 1px;
     }
 
     .bg-desktop-top {
