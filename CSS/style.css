@@ -23,7 +23,7 @@ body {
     display: grid;
     place-content: center;
     min-height: 100vh;
-   backgound-color: hsl(228, 56%, 26%);
+    background-color: var(--Very-Dark-Blue);
 }
 
 img {
